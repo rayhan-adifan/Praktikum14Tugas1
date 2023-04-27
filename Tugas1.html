@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Tugas Javascript</h1>
+    <h2>Form Registrasi</h2>
+    <p>Masukkan Username <input id="uname" type="text"></p>
+    <p>Masukkan Email <input id="email" type="email"></p>
+    <p>Masukkan Password <input id="password" type="password"></p>
+    <p>Masukkan Nama Anda <input id="nama" type="text"></p>
+    <p>Masukkan Nomor Telp <input id="telpon" type="text"></p>
+    <p>Masukkan Jenis Kelamin <input id="gender" type="text"></p>
+    <p>Masukkan Website <input id="website" type="url"></p>
+    <script>
+        function myFunction (){
+            var x=document.getElementById("uname").value;
+            if(x==""){
+                alert("Username tidak ditemukan");
+            }
+            var y=document.getElementById("email").value;
+            if(y==""){
+                alert("Email tidak ditemukan");
+            }
+            var z=document.getElementById("nama").value;
+            if(z==""){
+                alert("Nama tidak ditemukan");
+            }
+        }
+    </script>
+    <button type="button" onclick="myFunction ()">Submit</button>
+</body>
+</html>
